@@ -1,0 +1,14 @@
+﻿
+# MySQL database Docker compose
+
+version: '3'
+
+services:
+
+  mysql-development:
+    image: mysql:8.0.31
+    environment:
+      MYSQL_ROOT_PASSWORD: admin
+      MYSQL_DATABASE: cs_client_management
+    ports:
+      - "3308:3306"

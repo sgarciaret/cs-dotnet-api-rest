@@ -48,7 +48,7 @@ namespace CSApiRestPractice.Data {
         public async Task<Client> UpdateClient(int id, Client client) {
 
             Client clientToUpdate = new Client(
-                client.ClientId,
+                id,
                 client.FirstName,
                 client.LastName,
                 client.Email,
