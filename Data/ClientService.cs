@@ -2,7 +2,6 @@
 using Microsoft.EntityFrameworkCore.ChangeTracking;
 
 using CSApiRestPractice.Domain;
-using Microsoft.AspNetCore.Mvc;
 
 namespace CSApiRestPractice.Data {
 
